@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+            contetnt="width=devise-width, initial-scale=1.0">
+            <title>Главное меню</title>
+            <link rel="stylesheet" href="style.css"> 
+        </head>  
+        <body  bgcolor="#000" background="фон.jpg">
+        
+            <header class="header">
+                   <a class="header__logo logo" href="#">Сайт Лаппо Даниила</a>
+            </header>
+        <body  bgcolor="#000" background="фон.jpg">
+        <body>
+            <h1 class="hero__title" >
+                Главная страница сайта визитки
+            </h1>
+                <h2 class="hero__subtittle">
+                    Здесь вы можеть выбрать в меню, что посмотреть
+                </h2>
+<div id="sidebar">
+    <div class="toggle-btn" onclick="openMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul>
+        <li>Меню</li>
+        <li><a href="page copy.html">Визитка</a></li>
+        <li><a href="увлечения.html">Увлечения</a></li>
+    </ul>
+</div>
+<!-- отслеживаейм клас у бар и если добавлен класс эктив то тогл его удаляет ,а если его нет то добавляет -->
+<script>
+    
+function openMenu(){
+    document.getElementById("sidebar").classList.toggle('active')
+}
+</script>
+ </body>
+
